@@ -4,7 +4,7 @@ import random
 import datetime
 
 import os
-TOKEN = os.getenv("MTUxNTk5MzkwMTY4MzU3MjgwNw.Ghp762.Z3EgSJ78f1mAQBG33r7qGhF5JXoCl9J-KHFVgg")
+TOKEN = os.getenv("TOKEN")
 
 intents = discord.Intents.all()
 
@@ -148,4 +148,4 @@ async def limpar(interaction: discord.Interaction, quantidade: int):
 async def ping(interaction: discord.Interaction):
     await interaction.response.send_message("🏓 Pong!")
 
-bot.run ("MTUxNTk5MzkwMTY4MzU3MjgwNw.Ghp762.Z3EgSJ78f1mAQBG33r7qGhF5JXoCl9J-KHFVgg")
+bot.run ("TOKEN")
